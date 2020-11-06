@@ -1,0 +1,80 @@
+nav a {
+  display: inline-block;
+  background-color: #ce011a;
+  margin: 12px 30px;
+  padding: 7px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  -webkit-border-radius: 10%;
+  -o-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+header {
+  background-color: #ce011a;
+}
+mark {
+  color: #ce011d;
+}
+.abc {
+  text-align: center;
+  color: #f6f6f6;
+  font-size: x-large;
+  background-color: #6a1208;
+}
+.abc img {
+  border-radius: 25px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 1rem;
+  font-size: 18px;
+}
+.center {
+  text-align: center;
+  font-size: 20px;
+}
+.justify {
+  text-align: justify !important;
+  box-sizing: inherit;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 40px;
+}
+.text {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+div {
+  display: block;
+}
+.refer {
+  background-color: grey;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 40px;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #f6f6f6;
+}

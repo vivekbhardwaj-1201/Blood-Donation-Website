@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login Donor Plaza</title>
+    <script>
+      function login() {
+        let username = document.getElementById("loginuser").value;
+        let pass = document.getElementById("pas").value;
+        if (username == "11804848" && pass == "Vaibhav@1201") { document.location = 'main.html' }
+        else {
+          alert("please enter valid credentials");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <img src="hosp.jpg" alt="background image" />
+    <div>
+      <div class="centered gallery center" id="log" >
+<b>Username:</b>
+<input type="text" name="login" placeholder="Enter username" id="loginuser" />
+        <br/>
+        <br />
+        <b>Password:</b>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Your Password..."
+          id="pas" 
+        />
+        
+        <br>
+        <div >
+          <button type="submit" onclick="login()">
+            Login
+          </button>
+          <button type="submit" onclick="document.location='signup.html'">
+            Signup
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
